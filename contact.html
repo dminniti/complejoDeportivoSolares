@@ -82,28 +82,61 @@
       </div>
     </div>
 
+<!--            <form id="contacts-form" action="sender.php" method="post">
+              <div class="col-md-12 animated" data-animation="fadeInUp">
+                <input type="text" name="name" id="name" class="col-sm-8" required="required"
+                       placeholder="Nombre..."/>
+              </div>
+              <div class="col-md-12 animated" data-animation="fadeInUp">
+                <div class="element">
+                  <input type="email" name="email" id="email" class="text" required="required"
+                         placeholder="Email..."/>
+                </div>
+              </div>
+              <div class="col-md-12 animated" data-animation="fadeInUp">
+                <div class="element">
+                  <input type="text" name="phone" id="phone" class="text" placeholder="Teléfono..."/>
+                </div>
+              </div>
+              <div class="col-md-12 animated" data-animation="fadeInUp">
+                <div class="element">
+                            <textarea name="comment" id="comment" class="text textarea" rows="10"
+                                      required="required"></textarea>
+                </div>
+              </div>
+
+              <div class="col-md-12 animated" data-animation="fadeInUp">
+                <div class="element">
+                  <button name="btsend" id="btsend" type="submit" class="btn btn-primary"><i
+                          class="fa fa-edit"></i> Enviar
+                  </button>
+                  <div class="loading"></div>
+                </div>
+              </div>
+            </form>-->
+
     
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <form action="#">
+            <form id="contacts-form" action="sender.php" method="post">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombre">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
               </div>
-              <div class="form-group">
+<!--              <div class="form-group">
                 <input type="text" class="form-control" placeholder="Asunto">
+              </div>-->
+              <div class="form-group">
+                <textarea class="form-control" name="comment" id="comment" cols="30" rows="10" placeholder="Escribe algo..." required></textarea>
               </div>
               <div class="form-group">
-                <textarea name="" class="form-control" id="" cols="30" rows="10" placeholder="Escribe algo..."></textarea>
+                <input type="submit" name="btsend" id="btsend" class="btn btn-primary py-3 px-5" value="ENVIAR">
               </div>
-              <div class="form-group">
-                <input type="submit" class="btn btn-primary py-3 px-5" value="ENVIAR">
-              </div>
-            </form>  
+            </form>
           </div>
           <div class="col-lg-4 ml-auto">
             
