@@ -3,7 +3,7 @@
 $aviso = "";
 if ($_POST['email'] != "") {
     // email de destino
-    $email = "complejodeportivosolares@gmail.com.ar";
+    $email = "complejodeportivosolares@gmail.com";
 
     // asunto del email
     $subject = "Contacto - Solares";
